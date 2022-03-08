@@ -11,3 +11,5 @@ tips :
 2 - to convert QtDesign projects into python script projects, just use command below :
 
     $ pyuic5 -x QtDesign.ui -o QtDesign.py
+
+3 - QtDesign framework uses xml syntax and the input is called (Line Edit) component
