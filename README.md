@@ -5,5 +5,9 @@ tips :
 
 1 - to test scripts in only one file , run condition :
 
- if '__name__' == '__main__' :
+    if '__name__' == '__main__' :
         (condition, functions,etc)
+
+2 - to convert QtDesign projects into python script projects, just use command below :
+
+    $ pyuic5 -x QtDesign.ui -o QtDesign.py
